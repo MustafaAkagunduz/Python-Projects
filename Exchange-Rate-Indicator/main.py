@@ -1,6 +1,7 @@
 import yfinance as yf
 
 def doviz_donusumu():
+    
     base_currency = "TRY"  # Dönüştürme yapılacak para birimi (Türk Lirası)
     target_currencies = ["USD", "EUR", "GBP"]  # Hedef para birimleri (Dolar, Euro, Sterlin)
 
