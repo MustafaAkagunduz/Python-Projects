@@ -3,6 +3,8 @@ from tkinter import *
 window = Tk()
 window.title("BMI Calculator")
 window.config(padx=30, pady=30)
+window.configure(bg="yellow")
+
 
 
 def calculate_bmi():
@@ -37,20 +39,28 @@ def write_result(bmi):
     result_string = f"Your BMI is {round(bmi, 2)}. You are "
     if bmi <= 16:
         result_string += "severely thin!"
+        window.configure(bg="blue")
     elif 16 < bmi <= 17:
         result_string += "moderately thin!"
+        window.configure(bg="blue")
     elif 17 < bmi <= 18.5:
         result_string += "mild thin!"
+        window.configure(bg="blue")
     elif 18.5 < bmi <= 25:
         result_string += "normal weight"
+        window.configure(bg="green")
     elif 25 < bmi <= 30:
         result_string += "overweight"
+        window.configure(bg="red")
     elif 30 < bmi <= 35:
         result_string += "obese class 1"
+        window.configure(bg="red")
     elif 35 < bmi <= 40:
         result_string += "obese class 2"
+        window.configure(bg="red")
     else:
         result_string += "obese class 3"
+        window.configure(bg="red")
     return result_string
 
 
