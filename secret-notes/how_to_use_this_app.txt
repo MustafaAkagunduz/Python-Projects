@@ -1,0 +1,35 @@
+TR
+Uygulama nasıl kullanılır:
+
+Şifreleme:
+1-Başlığı gir.
+2-Şifrelenmek istenen mesajı gir.
+3-Şifre çözmek için gerekli olarak Key’i gir ve onu unutma
+4-“Save and Encyrpt” butonuna bas.
+
+mesaj şifrelenmiş halde kodun çalıştırıldığı dosyanın bulunduğu dizine kaydedilir.
+
+Şifre Çözme:
+
+1-Oluşan .txt uzantılı dosyadan şifreli metni kopyala
+2-“Enter Your Secret” kutusuna yapıştır.
+3-Önceden belirlediğin key’i gir.
+4-“Decyrpt” butonuna bas.
+————————————————————————————————————
+ENG
+How to use the app:
+
+Encryption:
+1-Enter the title.
+2-Enter the message to be encrypted.
+3-Enter the Key as necessary to decrypt it and don't forget it
+4-Press the “Save and Encyrpt” button.
+
+The message is saved in encrypted form in the directory where the file from which the code is run is located.
+
+Decoding:
+
+1-Copy the encrypted text from the resulting .txt file
+2- Paste it in the "Enter Your Secret" box.
+3-Enter the key you have previously determined.
+4-Press the “Decyrpt” button.
