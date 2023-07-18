@@ -13,7 +13,19 @@ turtle-lib-exercises/venv/
 secret-notes/.idea/
 secret-notes/venv/
 
+CryptoCrazyDownload/.idea/
+CryptoCrazyDownload/venv/
+
+RequestsExample/.idea/
+RequestsExample/venv/
+
+sub-domain-finder/.idea/
+sub-domain-finder/venv/
+
 bmi-calculator/.DS_Store
 try-exchange-rate-indicator/.DS_Store
 turtle-lib-exercises/.DS_Store
 secret-notes/.DS_Store
+CryptoCrazyDownload/.DS_Store
+RequestsExample/.DS_Store
+sub-domain-finder/.DS_Store
