@@ -1,0 +1,22 @@
+TR
+——
+Programın kullanımı çok basittir..
+
+1-Programı çalıştırın
+2-Hava durumunu merak ettiğiniz şehri girin
+3-Enter’a basın(veya butona tıklayın)
+
+bu uygulama için tkinter ve requests kütüphanelerini kullandım
+hava durumu verilerini https://openweathermap.org/api sitesinden aldım.
+
+******************************************************************************************
+ENG
+———
+The program is very simple to use.
+
+1-Run the program
+2-Enter the city you are curious about the weather forecast
+3-Press Enter (or click the button)
+
+I used tkinter and requests libraries for this application
+I got the weather data from https://openweathermap.org/api.
