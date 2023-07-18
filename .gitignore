@@ -1,31 +1,31 @@
-bmi-calculator/.idea/
-bmi-calculator/venv/
+APP-bmi-calculator/.idea/
+APP-bmi-calculator/venv/
 
 tkinter-lib-exercises/.idea/
 tkinter-lib-exercises/venv/
 
-try-exchange-rate-indicator/.idea/
-try-exchange-rate-indicator/venv/
+APP-try-exchange-rate-indicator/.idea/
+APP-try-exchange-rate-indicator/venv/
 
 turtle-lib-exercises/.idea/
 turtle-lib-exercises/venv/
 
-secret-notes/.idea/
-secret-notes/venv/
+APP-secret-notes/.idea/
+APP-secret-notes/venv/
 
-CryptoCrazyDownload/.idea/
-CryptoCrazyDownload/venv/
+APP-CryptoCrazyDownload/.idea/
+APP-CryptoCrazyDownload/venv/
 
 RequestsExample/.idea/
 RequestsExample/venv/
 
-sub-domain-finder/.idea/
-sub-domain-finder/venv/
+APP-sub-domain-finder/.idea/
+APP-sub-domain-finder/venv/
 
-bmi-calculator/.DS_Store
-try-exchange-rate-indicator/.DS_Store
+APP-bmi-calculator/.DS_Store
+APP-try-exchange-rate-indicator/.DS_Store
 turtle-lib-exercises/.DS_Store
-secret-notes/.DS_Store
-CryptoCrazyDownload/.DS_Store
+APP-secret-notes/.DS_Store
+APP-CryptoCrazyDownload/.DS_Store
 RequestsExample/.DS_Store
-sub-domain-finder/.DS_Store
+APP-sub-domain-finder/.DS_Store
