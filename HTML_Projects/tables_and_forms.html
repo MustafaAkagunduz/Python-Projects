@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <table border=1>
+        <!-- table head -->
+        <thead>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Age</th>
+        </thead>
+        <!-- table row -->
+        <tr>
+            <td>James</td>
+            <td>100</td>
+            <td>M</td>
+            <td>60</td>
+        </tr>
+
+        <tr>
+            <td>Aka</td>
+            <td>45</td>
+            <td>V</td>
+            <td>27</td>
+        </tr>
+
+        <tr>
+            <td>Ezgi</td>
+            <td>65</td>
+            <td>D</td>
+            <td>22</td>
+        </tr>
+
+        <tr>
+            <td>Selo</td>
+            <td>600</td>
+            <td>G</td> 
+            <td>45</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <form action="images.html">
+        <label for="name">NAME: </label>
+        <input type="text" id="name" name="nameValue"> 
+        <br>
+        <label for="salary">SALARY: </label> 
+        <input type="text" id="salary" name="salaryValue"> 
+        <br> 
+        <input type="submit">
+    </form>
+
+    <br><br><br>
+
+    <form action="html_basics.html">
+        <label for="email">e-mail: </label>
+        <input type="email" id="email" name="mailValue" placeholder="Enter Your E-mail"> <!--önceden tanımlı 'type'-->
+        <br>
+        <label for="password">PASSWORD: </label> 
+        <input type="password" id="password" name="passwordValue" placeholder="Enter Your Password"> <!--önceden tanımlı 'type'-->
+        <br> 
+        <input type="submit" value="Login">
+    </form>
+
+    <br><br><br>
+    <!-- bu durumda ikisi de seçilebiliyor -->
+    <form action="div_span_html.html">
+        <p>StarWars vs. StarTrek</p>
+        <label for="starwars">StarWars  </label>
+        <input type="radio" id="starwars" name="sw"> <!--önceden tanımlı 'type'-->
+        <br>
+        <label for="sttk">StarTrek</label> 
+        <input type="radio" id="sttk" name="st"> <!--önceden tanımlı 'type'-->
+        <br> 
+        <input type="submit" value="Choose">
+    </form>
+
+    <br><br><br>
+    <!-- bu durumda teki seçilebiliyor (isimler aynı) value parametresi ekleniyor -->
+    <form action="div_span_html.html">
+        <p>StarWars vs. StarTrek</p>
+        <label for="starwars">StarWars  </label>
+        <input type="radio" id="starwars" name="mov" value="starwars"> <!--önceden tanımlı 'type'-->
+        <br>
+        <label for="sttk">StarTrek</label> 
+        <input type="radio" id="sttk" name="mov" value="startrek"> <!--önceden tanımlı 'type'-->
+        <br> 
+        <input type="submit" value="Choose">
+    </form>
+
+    <br><br><br>
+
+    <form action="html_list.html">
+        <p>Rate Your Driver:</p>
+        <select name="rating" id="rating">
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+        <input type="submit" value="Choose">
+    </form>
+    
+</body>
+</html>
