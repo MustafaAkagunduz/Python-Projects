@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Clone</title>
+  <link rel="stylesheet" href="google_css.css">
+</head>
+<body>
+  <div class="search-container">
+    <div class="logo-container">
+      <img src="https://media.wired.co.uk/photos/606dabd1f19707fe1aef375f/master/w_1600%2Cc_limit/GOOGLELOGO_1.jpg" alt="Google Logo" class="google-logo">
+    </div>
+    <div class="images-link-container">
+      <a href="https://www.google.com/search?tbm=isch&q=" class="images-link">Images</a>
+    </div>
+    <div class="search-bar-container">
+      <form id="search-form" action="https://www.google.com/search" method="GET" class="search-form">
+        <input type="text" name="q" id="search-input" placeholder="Google'da Ara" required>
+      </form>
+    </div>
+    <div class="button-container">
+      <button id="search-button" class="search-button">Ara</button>
+      <button id="lucky-button" class="lucky-button">Kendimi Şanslı Hissediyorum</button>
+    </div>
+  </div>
+
+  <script>
+    const searchForm = document.getElementById("search-form");
+    const searchButton = document.getElementById("search-button");
+    const luckyButton = document.getElementById("lucky-button");
+
+    searchButton.addEventListener("click", function() {
+      searchForm.submit();
+    });
+
+    luckyButton.addEventListener("click", function() {
+      const searchInput = document.getElementById("search-input").value.trim();
+      if (searchInput !== "") {
+        const siteUrl = getSiteUrlFromKeyword(searchInput);
+        if (siteUrl) {
+          window.location.href = siteUrl;
+        } else {
+          searchForm.submit();
+        }
+      } else {
+        searchForm.submit();
+      }
+    });
+
+    const imagesLink = document.querySelector(".images-link");
+    imagesLink.addEventListener("click", function(event) {
+      event.preventDefault();
+      const searchInput = document.getElementById("search-input").value.trim();
+      const imagesUrl = "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(searchInput);
+      window.location.href = imagesUrl;
+    });
+
+    function getSiteUrlFromKeyword(keyword) {
+      // Tanımlı anahtar kelimeler ve bağlantılar burada olacak
+      // ...
+      return null;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Diğer CSS kuralları burada yer alacak */
+
+.search-container {
+    display: flex;
+    flex-direction: column; /* Dikey düzeni aktif ediyoruz */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .google-logo {
+    max-width: 250px;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    flex-direction: column; /* Dikey düzeni aktif ediyoruz */
+    align-items: center;
+  }
+  
+  /* Diğer CSS kuralları burada yer alacak */
+
+.search-form {
+    display: flex;
+    flex-direction: column; /* Dikey düzeni aktif ediyoruz */
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    max-width: 2000px; /* Arama çubuğunun maksimum genişliğini belirleyin */
+    width: 100%; /* Arama çubuğunun tüm genişliği kullanmasını sağlar */
+  }
+  
+  #search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    width: 100%; /* Arama çubuğunun tüm genişliği kullanmasını sağlar */
+  }
+  
+  
+  .button-container {
+    display: flex;
+    margin-top: 5px; /* Butonları arama çubuğundan ayırmak için boşluk ekliyoruz */
+  }
+  
+  .search-button, .lucky-button {
+    padding: 8px 16px;
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px; /* Butonları yan yana düzenlemek için boşluk ekliyoruz */
+  }
+  
+  .lucky-button:hover {
+    background-color: #2E65D8;
+  }
+  
+  .lucky-button:focus, .search-button:focus {
+    outline: none;
+  }
+  
