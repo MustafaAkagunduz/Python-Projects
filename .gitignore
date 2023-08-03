@@ -22,10 +22,13 @@ RequestsExample/venv/
 APP-sub-domain-finder/.idea/
 APP-sub-domain-finder/venv/
 
+SeleniumTests/.idea
+
 APP-bmi-calculator/.DS_Store
 APP-try-exchange-rate-indicator/.DS_Store
 turtle-lib-exercises/.DS_Store
 APP-secret-notes/.DS_Store
 APP-CryptoCrazyDownload/.DS_Store
 RequestsExample/.DS_Store
+SeleniumTests/.DS_Store
 APP-sub-domain-finder/.DS_Store
